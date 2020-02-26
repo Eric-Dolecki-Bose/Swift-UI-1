@@ -132,9 +132,10 @@ struct ContentView: View {
                             
                             content:  {
                                 $0.image
-                                .resizable()
-                                .aspectRatio(contentMode: .fill)
-                                .clipped()
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fill)
+                                    .frame(width:60, height:60)
+                                    .clipped()
                             })
                             .frame(width: 60.0, height: 60.0)
                             .border(Color(hex: 0x444444), width: 1)
@@ -287,8 +288,9 @@ struct ContentView: View {
                         var count: Float = -1.0
                         Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { (timer) in
                             count += 1
-                            self.progressValue = count / 900
+                            self.progressValue = count / 900 // 15 mins
                             if self.progressValue >= 1 {
+                                count = -1.0
                                 self.progressValue = 0
                             }
                         }
