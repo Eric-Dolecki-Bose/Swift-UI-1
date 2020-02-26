@@ -169,7 +169,6 @@ struct ContentView: View {
                         VStack {
                             Image(systemName: self.image1)
                                 .foregroundColor(Color.orange)
-                                .font(.system(size: 20.0))
                             Text(day1)
                                 .foregroundColor(Color.orange)
                                 .font(.caption)
@@ -180,8 +179,7 @@ struct ContentView: View {
                         
                         VStack {
                             Image(systemName: self.image2)
-                                .foregroundColor(Color("SlimeGray"))
-                                .font(.system(size: 20.0))
+                                .foregroundColor(Color(hex: 0x888888))
                             Text(day2)
                                 .foregroundColor(Color.gray)
                                 .font(.caption)
@@ -191,8 +189,7 @@ struct ContentView: View {
                         
                         VStack {
                             Image(systemName: self.image3)
-                                .foregroundColor(Color("SlimeGray"))
-                                .font(.system(size: 20.0))
+                                .foregroundColor(Color(hex: 0x888888))
                             Text(day3)
                                 .foregroundColor(Color.gray)
                                 .font(.caption)
@@ -202,8 +199,7 @@ struct ContentView: View {
                         
                         VStack {
                             Image(systemName: self.image4)
-                                .foregroundColor(Color("SlimeGray"))
-                                .font(.system(size: 20.0))
+                                .foregroundColor(Color(hex: 0x888888))
                             Text(day4)
                                 .foregroundColor(Color.gray)
                                 .font(.caption)
@@ -213,8 +209,7 @@ struct ContentView: View {
                         
                         VStack {
                             Image(systemName: self.image5)
-                                .foregroundColor(Color("SlimeGray"))
-                                .font(.system(size: 20.0))
+                                .foregroundColor(Color(hex: 0x888888))
                             Text(day5)
                                 .foregroundColor(Color.gray)
                                 .font(.caption)
@@ -224,8 +219,7 @@ struct ContentView: View {
                         
                         VStack {
                             Image(systemName: self.image6)
-                                .foregroundColor(Color("SlimeGray"))
-                                .font(.system(size: 20.0))
+                                .foregroundColor(Color(hex: 0x888888))
                             Text(day6)
                                 .foregroundColor(Color.gray)
                                 .font(.caption)
@@ -235,8 +229,7 @@ struct ContentView: View {
                         
                         VStack {
                             Image(systemName: self.image7)
-                                .foregroundColor(Color("SlimeGray"))
-                                .font(.system(size: 20.0))
+                                .foregroundColor(Color(hex: 0x888888))
                             Text(day7)
                                 .foregroundColor(Color.gray)
                                 .font(.caption)
@@ -246,8 +239,7 @@ struct ContentView: View {
                         
                         VStack {
                             Image(systemName: self.image8)
-                                .foregroundColor(Color("SlimeGray"))
-                                .font(.system(size: 20.0))
+                                .foregroundColor(Color(hex: 0x888888))
                             Text(day8)
                                 .foregroundColor(Color.gray)
                                 .font(.caption)
